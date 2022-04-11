@@ -6,20 +6,37 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
+        android:id="@+id/nav_log"
+        android:name="com.example.myfit.ui.log.LogFragment"
+        android:label="@string/menu_log"
+        tools:layout="@layout/fragment_log" />
+    <fragment
         android:id="@+id/nav_home"
         android:name="com.example.myfit.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.myfit.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_gym"
+        android:name="com.example.myfit.ui.gym.GymFragment"
+        android:label="@string/menu_gym"
+        tools:layout="@layout/fragment_gym" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.myfit.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_food"
+        android:name="com.example.myfit.ui.food.FoodFragment"
+        android:label="@string/menu_food"
+        tools:layout="@layout/fragment_food" />
+
+    <fragment
+        android:id="@+id/nav_diary"
+        android:name="com.example.myfit.ui.diary.DiaryFragment"
+        android:label="@string/menu_diary"
+        tools:layout="@layout/fragment_diary" />
+
+    <fragment
+        android:id="@+id/nav_progress"
+        android:name="com.example.myfit.ui.progress.ProgressFragment"
+        android:label="@string/menu_progress"
+        tools:layout="@layout/fragment_progress" />
 </navigation>
