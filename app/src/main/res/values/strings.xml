@@ -14,4 +14,8 @@
     <string name="menu_diary">Diary</string>
     <string name="menu_progress">Progress</string>
     <string name="menu_title">Menu</string>
+    <string name="weight">Weight</string>
+    <string name="strength">Strength</string>
+    <string name="diet">Diet</string>
+    <string name="progress_fragment">Progress Fragment</string>
 </resources>
