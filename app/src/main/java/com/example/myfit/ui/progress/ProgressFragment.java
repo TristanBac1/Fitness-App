@@ -44,23 +44,6 @@ public class ProgressFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-//        context = inflater.getContext();
-//        progressViewModel =
-//                new ViewModelProvider(this).get(ProgressViewModel.class);
-//
-//        binding = FragmentProgressBinding.inflate(inflater, container, false);
-//        View root = binding.getRoot();
-//
-//        final TextView textView = binding.textProgress;
-//
-//        progressViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-//            @Override
-//            public void onChanged(@Nullable String s) {
-//                textView.setText(s);
-//            }
-//        });
-//
-//        return root;
         myFragment = inflater.inflate(R.layout.fragment_progress, container, false);
 
         viewPager = myFragment.findViewById(R.id.viewPager);

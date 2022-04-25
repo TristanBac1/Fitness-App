@@ -18,4 +18,10 @@
     <string name="strength">Strength</string>
     <string name="diet">Diet</string>
     <string name="progress_fragment">Progress Fragment</string>
+
+    <string-array name="log_array">
+        <item>Gym</item>
+        <item>Food</item>
+        <item>Activity</item>
+    </string-array>
 </resources>

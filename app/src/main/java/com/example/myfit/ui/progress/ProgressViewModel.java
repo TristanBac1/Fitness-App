@@ -7,14 +7,14 @@ import androidx.lifecycle.ViewModel;
 
 public class ProgressViewModel extends ViewModel {
 
-    private MutableLiveData<String> mText;
+//    private MutableLiveData<String> mText;
 
     public ProgressViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is progress fragment");
+//        mText = new MutableLiveData<>();
+//        mText.setValue("This is progress fragment");
     }
 
-    public LiveData<String> getText() {
-        return mText;
-    }
+//    public LiveData<String> getText() {
+//        return mText;
+//    }
 }
